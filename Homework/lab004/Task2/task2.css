@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.nav {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: max-content;
+  background-color: #333333;
+}
+
+.nav li {
+  width: 70px;
+  padding: 25.5px 15px;
+  text-align: center;
+  list-style: none;
+  color: #ffffff;
+}
+
+.nav li:hover {
+  background-color: green;
+}
+
+@media only screen and (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,15 @@
+.outerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  background-color: #2981f5;
+  justify-content: center;
+}
+
+.innerBox {
+  width: 100px;
+  height: 100px;
+  background-color: #000000;
+}

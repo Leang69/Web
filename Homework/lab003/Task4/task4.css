@@ -1,0 +1,46 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+.VeticalMenu {
+  width: 25%;
+  height: auto;
+  background-color: #f1f1f1;
+  padding: 0px;
+}
+
+.VeticalMenu li {
+  font-size: 16px;
+  font-weight: bold;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+.VeticalMenu li:hover {
+  color: #ffffff;
+  background-color: #67ac5b;
+}
+
+.HorizontalMenu {
+  width: 35%;
+  height: 25px;
+  font-weight: bold;
+  height: auto;
+  background-color: #f3f3f3;
+  padding: 0px;
+}
+
+.HorizontalMenu li {
+  color: #808080;
+  padding: 20px;
+  display: inline-block;
+}
+
+.HorizontalMenu li:last-child {
+  float: right;
+}
+
+.HorizontalMenu li:hover {
+  color: #ffffff;
+  background-color: #3A8BB6;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  background-image: url("img.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 30%;
+  font-family: "Source Serif Pro", serif;
+  text-shadow: 2px 2px 5px rgb(73, 72, 72);
+}
+
+.content {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.content h1 {
+  font-size: 96px;
+}
+
+.content p {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 54px;
+}
