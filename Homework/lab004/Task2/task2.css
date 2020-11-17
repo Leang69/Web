@@ -27,4 +27,11 @@ body {
   .nav {
     flex-direction: column;
   }
+  .nav li {
+    width: 150px;
+    padding: 25.5px 15px;
+    text-align: center;
+    list-style: none;
+    color: #ffffff;
+  }
 }
