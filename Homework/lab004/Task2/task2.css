@@ -1,19 +1,20 @@
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0px;
 }
 
 .nav {
+  margin: 0px;
+  width: 100%;
   padding: 0px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: max-content;
+  justify-content: start;
   background-color: #333333;
 }
 
 .nav li {
-  width: 70px;
-  padding: 25.5px 15px;
+  padding: 25.5px 30px;
   text-align: center;
   list-style: none;
   color: #ffffff;
@@ -28,8 +29,7 @@ body {
     flex-direction: column;
   }
   .nav li {
-    width: 150px;
-    padding: 25.5px 15px;
+    padding: 25.5px 100%;
     text-align: center;
     list-style: none;
     color: #ffffff;
