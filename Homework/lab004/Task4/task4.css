@@ -30,7 +30,7 @@ footer {
   text-align: center;
   padding: 300px 0px;
   flex-grow: 1;
-  background-color: rgb(182, 182, 221);
+  background-color: rgb(115, 115, 117);
 }
 
 @media only screen and (max-width: 480px) {
@@ -41,7 +41,7 @@ footer {
         padding: 2px;
     }
     .subContainer main{
-        padding: 300px 0px;
+        padding: 250px 0px;
     }
     .subContainer aside{
         padding: 2px 0px;
