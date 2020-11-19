@@ -35,3 +35,20 @@ body main h1 {
   font-size: 64px;
   line-height: 0.5px;
 }
+body main p {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 20px;
+}
+body main .symbol {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+body main .symbol div {
+  margin: 7px;
+  width: 100px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
