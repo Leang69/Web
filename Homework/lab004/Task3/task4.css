@@ -1,0 +1,35 @@
+body{
+    width: auto;
+    margin: auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin:5% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid  rgb(196, 194, 194);
+    border-width: 2px;
+}
+
+.container .item{
+    width: 236px;
+    text-align: center;
+    border: solid rgb(196, 194, 194);
+    border-width: 2.5px;
+}
+
+.container .item img{
+    width: 100%;
+    height: auto;
+}
+
+.container .item h5{
+    margin: 2% auto;
+}
+.container .item p{
+    margin: 2% auto;
+}
