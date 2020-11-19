@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(109, 109, 109);
+}
+.container div {
+  width: 98px;
+  height: 98px;
+  background-color: #6d9afa;
+  border: 1px solid rgb(109, 109, 109);
+}
+.container div p{
+    text-align: center;
+    padding: 20px 0;
+}
