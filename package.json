@@ -1,0 +1,24 @@
+{
+  "name": "web-homework",
+  "version": "1.0.0",
+  "description": "Ngoun Mengleang web-homework at rupp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leang69/Web.git"
+  },
+  "keywords": [
+    "rupp",
+    "wct",
+    "homework"
+  ],
+  "author": "leang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leang69/Web/issues"
+  },
+  "homepage": "https://github.com/Leang69/Web#readme"
+}
