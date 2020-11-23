@@ -1,3 +1,3 @@
 <?php
-    cd Homework;
+    require_once("getWay.html")
 ?>
