@@ -1,3 +1,3 @@
 <?php
-    require_once("getWay.html")
+    require_once("file:///home/leang/RUPP/Web/Homework/")
 ?>
