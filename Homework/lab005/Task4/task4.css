@@ -1,0 +1,32 @@
+
+#headerLayout , #footerLayout{
+    background-color: #008db8;
+}
+#main{
+    background-color: #00c040;
+    padding: 350px 0;
+}
+#slideBar{
+    background-color: #757474;
+    padding: 350px 0; 
+}
+
+#footerLayout .col-12 , #headerLayout .col-12{
+    text-align:center;
+}
+
+#main , #slideBar{
+    text-align:center;
+}
+
+@media only screen and (max-width: 576px) {
+    #bodyLayout{
+        flex-direction: column-reverse;
+    }
+    #slideBar{
+        padding: 10px 0; 
+    }
+    #main{
+        padding: 300px 0;
+    }
+}

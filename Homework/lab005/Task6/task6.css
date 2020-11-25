@@ -1,0 +1,89 @@
+.num {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.row .col-6:first-child {
+  border-right: 1px solid #d1cccc;
+}
+
+.card {
+  width: 300px;
+}
+.col-6 p {
+  margin: 3px;
+}
+
+#fbcard .card-header {
+  background-color: #405b93;
+  text-align: center;
+}
+#fbcard .card-header i {
+  color: #ffffff;
+  font-size: 36px;
+}
+#fbcard .col-6 {
+  text-align: center;
+}
+#fbcard .col-6 p {
+  font-size: 20px;
+}
+#fbcard .col-6 p i {
+  color: #405b93;
+  font-size: 20px;
+}
+#gpcard .card-header {
+  background-color: #ce5542;
+  text-align: center;
+}
+#gpcard .card-header i {
+  color: #ffffff;
+  font-size: 36px;
+}
+#gpcard .col-6 {
+  text-align: center;
+}
+#gpcard .col-6 p {
+  font-size: 20px;
+}
+#gpcard .col-6 p i {
+  color: #ce5542;
+  font-size: 20px;
+}
+#twcard .card-header {
+  background-color: #47a2eb;
+  text-align: center;
+}
+#twcard .card-header i {
+  color: #ffffff;
+  font-size: 36px;
+}
+#twcard .col-6 {
+  text-align: center;
+}
+#twcard .col-6 p {
+  font-size: 20px;
+}
+#twcard .col-6 p i {
+  color: #47a2eb;
+  font-size: 20px;
+}
+
+#pcard .card-header {
+  background-color: #ad2525;
+  text-align: center;
+}
+#pcard .card-header i {
+  color: #ffffff;
+  font-size: 36px;
+}
+#pcard .col-6 {
+  text-align: center;
+}
+#pcard .col-6 p {
+  font-size: 20px;
+}
+#pcard .col-6 p i {
+  color: #ad2525;
+  font-size: 20px;
+}

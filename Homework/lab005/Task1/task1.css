@@ -1,0 +1,15 @@
+.row{
+    margin: 100px auto;
+    width: 600px;
+}
+
+.col-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-color: rgb(106, 106, 243);
+    height: 200px;
+    border-collapse: collapse;
+    border:1px solid #000000;
+    font-size: 24px;
+}
