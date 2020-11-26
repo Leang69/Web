@@ -6,9 +6,8 @@
 .row .col:first-child {
   border-right: 2px solid #d1cccc;
 }
-
-.card {
-  width: 300px;
+.row{
+  justify-content: space-around;
 }
 .col p {
   margin: 3px;
