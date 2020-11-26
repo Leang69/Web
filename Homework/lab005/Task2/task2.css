@@ -1,10 +1,12 @@
-.col-4 {
+
+.col-12{
   padding: 50px;
   transition: transform 0.5s;
 }
-.col-4 img {
+.col-12 img {
   width: 100%;
 }
-.col-4:hover {
-  transform: scale(1.2);
+
+.col-12:hover{
+  transform: scale(1.5);
 }

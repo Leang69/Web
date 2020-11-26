@@ -3,17 +3,16 @@
   border: 10px solid #f4f5f7;
 }
 
-.col-auto {
+.col-lg-auto {
   width: 20%;
   text-align: center;
 }
-.col-auto img{
+img {
+  margin: 20px 0;
   width: 100%;
   height: auto;
 }
 
-
 .border {
   border: 5xp solid #a72020;
 }
-
