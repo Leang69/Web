@@ -7,12 +7,13 @@
   width: 20%;
   text-align: center;
 }
-.col-auto img {
-  margin: 25px auto;
+.col-auto img{
   width: 100%;
   height: auto;
 }
 
+
 .border {
   border: 5xp solid #a72020;
 }
+

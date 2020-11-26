@@ -1,15 +1,10 @@
-body {
-  background-color: #eceff1;
-}
-.row {
-  margin: 0 25%;
-}
 .col-4 {
-  margin: 0;
-  padding: 0;
+  padding: 50px;
   transition: transform 0.5s;
 }
-
+.col-4 img {
+  width: 100%;
+}
 .col-4:hover {
-  transform: scale(1.25);
+  transform: scale(1.2);
 }
