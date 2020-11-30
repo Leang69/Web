@@ -1,0 +1,29 @@
+body{
+    margin-top: 70px;
+    background-color: orange;
+    text-align: center;
+}
+body h1{
+    color: #ffffff;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+form input{
+    margin: 3%;
+    height: 50px;
+    border: none;
+}
+
+form input[type="submit"]
+{
+    width: 30%;
+    background-color: #ffffff;
+}
