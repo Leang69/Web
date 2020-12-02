@@ -1,32 +1,26 @@
 var sort = () => {
   let str = document.getElementById("num").value;
-  document.getElementById("before").innerHTML = "Before sort: " + str ;
+
   let arr = getElement(str);
-  convertToNum(arr);
+  document.getElementById("before").innerHTML = "Before sort: " + arr;
   quickSort(arr, 0, arr.length - 1);
-  console.log(arr);
-  document.getElementById("result").innerHTML = "After sort: " + arr ;
+  document.getElementById("result").innerHTML = "After sort: " + arr;
 };
 
-let getElement = (str) => {
-  let tmp = "";
-  let arr = [];
-  for (i in str) {
-    if (str.charAt(i) === ",") {
-      arr.push(tmp);
-      tmp = "";
-    } else {
-      tmp = tmp + str.charAt(i);
+let getElement = (
+  str,
+  convertToNum = (arr) => {
+    let tmpArr = arr.filter((e) => e);
+    for (i of tmpArr) {
+      tmpArr.push(parseFloat(tmpArr.shift()));
     }
+    return tmpArr;
   }
-  arr.push(tmp);
+) => {
+  let tmp = "";
+  let arr = str.split(",");
+  arr = convertToNum(arr);
   return arr;
-};
-
-let convertToNum = (arr) => {
-  for (i of arr) {
-    arr.push(parseFloat(arr.shift()));
-  }
 };
 
 let quickSort = (arr, low, high) => {
