@@ -1,0 +1,21 @@
+.row {
+  margin: 5% auto;
+}
+
+.col-lg-auto {
+  width: 20%;
+  text-align: center;
+}
+img {
+  margin: 20px 0;
+  width: 100%;
+  height: auto;
+}
+
+.border {
+  border: 5xp solid #a72020;
+}
+
+div h6{
+    height: 40px;
+}
