@@ -64,16 +64,16 @@ function displayItem() {
     document.getElementById("list").appendChild(row);
     calculateSubTotal(i);
     totalItem();
-    toatlPrice()
+    totalPrice();
   }
 }
 
 function removeItem(me) {
   let id = me.parentNode.id;
   localStorage.removeItem(id);
-  document.getElementById(id).remove;
-  window.location.reload();
-  toatlPrice()
+  document.querySelector('#'+id).remove();
+  totalPrice();
+  totalItem();
 }
 
 function calculateSubTotal(me) {
@@ -92,7 +92,7 @@ function discountUpdate(me) {
   data.discount = me.value;
   localStorage.setItem(id, JSON.stringify(data));
   calculateSubTotal(id);
-  toatlPrice()
+  totalPrice();
 }
 
 function quantityUpdate(me) {
@@ -102,7 +102,7 @@ function quantityUpdate(me) {
   localStorage.setItem(id, JSON.stringify(data));
   calculateSubTotal(id);
   totalItem();
-  toatlPrice()
+  totalPrice();
 }
 
 function totalItem() {
@@ -110,18 +110,19 @@ function totalItem() {
   for (i of Object.keys(localStorage)) {
     totalItem += parseInt(JSON.parse(localStorage.getItem(i)).quantity);
   }
-  document.getElementById("item").innerHTML = "Item: " + totalItem+"&nbsp&nbsp";
+  document.getElementById("item").innerHTML =
+    "Item: " + totalItem + "&nbsp&nbsp";
 }
 
-function toatlPrice() {
-  let toatlPrice = 0;
+function totalPrice() {
+  let totalPrice = 0;
   let subTotal = document.getElementsByClassName("subTotal");
   for (i of subTotal) {
-    toatlPrice += parseInt(i.innerHTML);
+    totalPrice += parseInt(i.innerHTML);
   }
-  document.getElementById("totalPrice").innerHTML = "Total Price: " + toatlPrice + "$ ";
+  document.getElementById("totalPrice").innerHTML =
+    "Total Price: " + totalPrice + "$ ";
 }
-  
 
 {
   /* <div id=1 class="row m-0">
