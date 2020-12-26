@@ -11,6 +11,8 @@
 }
 
 function addTask(taskData) {
+  let taskName = taskData.task;
+ taskName = taskName.replace(/</g, "&lt").replace(/>/g, "&gt")
   $("#AllTask").append(
     "<div id='" +
       taskData.id +
@@ -20,7 +22,7 @@ function addTask(taskData) {
       "<h5 class=" +
       "card-title" +
       ">" +
-      taskData.task +
+      taskName +
       "</h5>" +
       "<button type=" +
       "button" +
@@ -48,14 +50,15 @@ $(document).ready(function () {
 
 //delete task
 $("#AllTask").on("click", ".done", function () {
+  let a = $(this).parent();
   $.ajax({
     type: "DELETE",
     url:
       "https://ngounmengleang-database.herokuapp.com/todoList/" +
-      $(this).parent().attr("id"),
-    success: function (response) {},
+      a.attr("id"),
+    success: function (response) { a.remove()}
   });
-  $(this).parent().remove();
+ 
 });
 
 //add task
